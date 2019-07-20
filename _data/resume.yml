@@ -5,7 +5,7 @@ title: "JOKING'S RESUME"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
 name: "JOKING"
 jobtitle: "求职意向" #可空不显示
-photo: "assets/img/photo.jpg" #照片可空，不显示
+photo: "/images/user-3.jpg" #照片可空，不显示
 
 #联系方式
 contact: #联系方式连接等3~5行
@@ -89,18 +89,22 @@ others: #其他列表显示
 - type: others #ID可以为空
   name: '其他'
   content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
+# - 单行文字
+  - title: "兴趣："
+    text: ""
     list:
-    - 第一项
-    - 第二项
+    - 吃饭
+    - 睡觉
+    - 打豆豆
+  #- title: "爱好:"
+    #items: #单行列表
+    #- 睡觉
+    #- 吃饭
+    #- coding
+  - title: “爱好：”
+    list:
+    - coding
+    - hello worlding...
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
@@ -111,7 +115,7 @@ others: #其他列表显示
 footer: #脚注多组
   print: #打印版markdown或者html
   screen:
-  - text: "简历脚注"
+  - text: "JOKING 简历"
   #   href: '/'
   - text: "Made with &hearts; by JOKING"
     href: "https://github.com/JokingLove/resume/"
